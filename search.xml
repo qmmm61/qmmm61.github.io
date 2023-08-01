@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>老胶片翻拍</title>
+      <link href="/photography/film/%E8%80%81%E8%83%B6%E7%89%87%E7%BF%BB%E6%8B%8D/"/>
+      <url>/photography/film/%E8%80%81%E8%83%B6%E7%89%87%E7%BF%BB%E6%8B%8D/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/qmmm61/images/202308010950117.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/qmmm61/images/202308010950117.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p><span id="more"></span><p>胶片已经是过去式，二十多年前，胶片还是主流，九几年时候父母抱着我拍的照片，当年扫描打印的照片已经受潮长霉，冲洗的胶片还保留着，于是想将胶片再扫描出来数码化，这样就永远不会坏了。但是经过这二十几年，也没有将胶片很好的保存，胶片受损严重，表面有许多刮痕，钙化灰尘，药面也已经非常薄弱，恐怕扫描出来的效果不会很好。</p><h2 id="了解胶片"><a href="#了解胶片" class="headerlink" title="了解胶片"></a>了解胶片</h2><p>胶片是记录影像的感光元件，并且也是记录影像信息的载体，使用胶片拍照具体分为三个步骤。</p><ol><li>拍摄<br>具体就是外界影像的光线通过相机镜头，由相机快门控制，最终到达胶片上，胶片上的感光材料接收并记录在胶片上，拍摄后的胶片保存在暗盒里等待下一个步骤冲洗</li><li>冲洗<br>将拍摄并且保存在暗盒里的胶片在暗房里通过一系列药水冲洗，将胶片上感光材料通过冲洗药水定型</li><li>扫描<br>将冲洗好的胶片使用专业的扫描仪器或者使用单反数码相机进行翻拍可得到数码化图片文件，也可以打印纸质相片。</li></ol><p>胶片的简单分类</p><ol><li>黑白与彩色</li><li>正片，负片，反转片</li><li>胶片画幅大小</li></ol><p>这次要翻拍的胶片具体信息是:<br>柯达金100，彩色负片，135画幅<br>想要准备处理的流程是：</p><ol><li>胶片修复</li><li>翻拍扫描</li><li>AI修复</li></ol><h2 id="胶片修复"><a href="#胶片修复" class="headerlink" title="胶片修复"></a>胶片修复</h2><p>查了一些资料，发现胶片修复确实是个麻烦事儿，需要挺多专业设备，且效果也不一定有多好，因此最后只是简单将胶片用棉纸擦拭清洁。<br>贴一下b站找到的一个关于修复老底片的视频<br><a href="https://www.bilibili.com/video/BV1cB4y1Y7EM">老底片的清洁-东胶影厂</a></p><h2 id="翻拍扫描"><a href="#翻拍扫描" class="headerlink" title="翻拍扫描"></a>翻拍扫描</h2><ol><li>翻拍或扫描<br>可以使用数码单反相机对着胶片拍摄进行翻拍，也可以使用专业胶片扫描设备扫描胶片，都能得到数码化文件</li><li>调色<br>胶片负片需要去色罩，调色等</li></ol><p>以上步骤直接找当地提供胶片扫描的店铺最为方便，直接拿到调色好的照片文件。</p><h2 id="AI修复"><a href="#AI修复" class="headerlink" title="AI修复"></a>AI修复</h2><p>扫描出来的文件，更能清楚看见其受损严重，使用AI工具进一步修复。<br>需要修复的问题</p><ol><li><p>胶片上的许多划痕，扫描出来的图片也就有许多划痕<br>没有找到合适的工具，使用PS的修复工具也不太好用，可能是我不太会PS吧。</p></li><li><p>由于胶片药面薄弱，扫描出来的图片有点模糊了<br>这次需要修复的也是人像，找到许多修复工具主要也是是针对人像，所以只关注人像修复如何<br>对比找到的工具有<a href="https://github.com/upscayl/upscayl">Upscayl</a>，<a href="https://github.com/sczhou/CodeFormer">CodeFormer</a>，<a href="https://www.topazlabs.com/topaz-photo-ai">TopazPhotoAI</a><br>其中Upscayl与CodeFormer开源，TopazPhotoAI是收费的<br>测试了Upscayl与CodeFormer，Upscayl提供GUI应用直接安装比较方便，但修复效果不理想<br>CodeFormer需要git clean源码仓库，Python环境，并且使用命令行，提供预训练模型，修复效果还可以，最终使用的就是CodeFormer，并且使用其提供的预训练模型修复。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> photograhy </category>
+          
+          <category> film </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>amiibo for totk</title>
       <link href="/game/nintendo/zelda/totk/amiiboForTotk/"/>
       <url>/game/nintendo/zelda/totk/amiiboForTotk/</url>
