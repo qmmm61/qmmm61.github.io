@@ -2125,7 +2125,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690860130781),
+    lastupdate: new Date(1690877667150),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2945,30 +2945,18 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-      <script type="text/javascript">
-  volantis.layoutHelper("comments",`<div id="gitalk-container"></div>`)
-  function p_gitalk() {
-    if(!document.querySelector("#gitalk-container"))return;
-    let path = pdata.commentPath;
-    if (path.length == 0) {
-      let defaultPath = '';
-      path = defaultPath || decodeURI(window.location.pathname);
-    }
-    if (document.getElementById('gitalk-container') != null) {
-      var gitalk = new Gitalk(
-        Object.assign(
-          Object.assign({"clientID":"416564a49c35cfad256f","clientSecret":"16708d78f529b61979e78f891a24ffe5da4622d1","repo":"qmmm61.github.io","owner":"qmmm61","admin":"qmmm61","path":null}, {
-            id: path,
-            distractionFreeMode: false  // Facebook-like distraction free mode
-          }),
-        pdata.commentConfig)
-      );
-      gitalk.render('gitalk-container');
-    }
-  }
-  volantis.js('https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js').then(p_gitalk)
-</script>
+      
 
+<script>
+    volantis.layoutHelper("comments",`<div id="cusdis_thread"
+        data-host="https://cusdis.com"
+        data-app-id="87ab9bed-11a3-460f-911e-bee2389d3dc2"
+        data-page-id="categories/game/nintendo/index.html"
+        data-page-url=""
+        data-page-title=""
+        ></div>`)
+</script>
+<script async src="https://cusdis.com/js/cusdis.es.js"></script>
     
 
 

@@ -2125,7 +2125,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690860130781),
+    lastupdate: new Date(1690877667150),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2541,7 +2541,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div id="post-body" itemprop="articleBody">
     <p><img src="https://gcore.jsdelivr.net/gh/qmmm61/images/202308010950117.jpg" class="lazyload" data-srcset="https://gcore.jsdelivr.net/gh/qmmm61/images/202308010950117.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <span id="more"></span>
-<p>胶片已经是过去式，二十多年前，胶片还是主流，九几年时候父母抱着我拍的照片，当年扫描打印的照片已经受潮长霉，冲洗的胶片还保留着，于是想将胶片再扫描出来数码化，这样就永远不会坏了。但是经过这二十几年，也没有将胶片很好的保存，胶片受损严重，表面有许多刮痕，钙化灰尘，药面也已经非常薄弱，恐怕扫描出来的效果不会很好。</p>
+<p>胶片已经是过去式，二十多年前，胶片还是主流，九几年时候拍的照片，当年扫描打印的照片已经受潮长霉，冲洗的胶片还保留着，于是想将胶片再扫描出来数码化，这样就不会坏了。但是经过这二十几年，也没有将胶片很好的保存，胶片受损严重，表面有许多刮痕，钙化灰尘，药面也已经非常薄弱，恐怕扫描出来的效果不会很好。</p>
 <h2 id="了解胶片"><a href="#了解胶片" class="headerlink" title="了解胶片"></a>了解胶片</h2><p>胶片是记录影像的感光元件，并且也是记录影像信息的载体，使用胶片拍照具体分为三个步骤。</p>
 <ol>
 <li>拍摄<br>具体就是外界影像的光线通过相机镜头，由相机快门控制，最终到达胶片上，胶片上的感光材料接收并记录在胶片上，拍摄后的胶片保存在暗盒里等待下一个步骤冲洗</li>
@@ -2939,30 +2939,18 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-      <script type="text/javascript">
-  volantis.layoutHelper("comments",`<div id="gitalk-container"></div>`)
-  function p_gitalk() {
-    if(!document.querySelector("#gitalk-container"))return;
-    let path = pdata.commentPath;
-    if (path.length == 0) {
-      let defaultPath = '';
-      path = defaultPath || decodeURI(window.location.pathname);
-    }
-    if (document.getElementById('gitalk-container') != null) {
-      var gitalk = new Gitalk(
-        Object.assign(
-          Object.assign({"clientID":"416564a49c35cfad256f","clientSecret":"16708d78f529b61979e78f891a24ffe5da4622d1","repo":"qmmm61.github.io","owner":"qmmm61","admin":"qmmm61","path":null}, {
-            id: path,
-            distractionFreeMode: false  // Facebook-like distraction free mode
-          }),
-        pdata.commentConfig)
-      );
-      gitalk.render('gitalk-container');
-    }
-  }
-  volantis.js('https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js').then(p_gitalk)
-</script>
+      
 
+<script>
+    volantis.layoutHelper("comments",`<div id="cusdis_thread"
+        data-host="https://cusdis.com"
+        data-app-id="87ab9bed-11a3-460f-911e-bee2389d3dc2"
+        data-page-id="photography/film/老胶片翻拍/"
+        data-page-url="https://qmmm61.github.io/photography/film/%E8%80%81%E8%83%B6%E7%89%87%E7%BF%BB%E6%8B%8D/"
+        data-page-title="老胶片翻拍"
+        ></div>`)
+</script>
+<script async src="https://cusdis.com/js/cusdis.es.js"></script>
     
 
 
